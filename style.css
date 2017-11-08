@@ -1,0 +1,95 @@
+body {
+  background-color: #EBEBEB;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+  line-height: 1.6em;
+}
+h1 {
+  color: #143A52;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1.6em;
+}
+h2 {
+  color: #597FCA;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.6em;
+}
+h3 {
+  color: #32424A;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.6em;
+}
+a {
+  color: #597FCA;
+  text-decoration: none;
+}
+a:hover {
+  color: #143A52;
+  text-decoration:none;
+}
+p {
+  text-align: justify;
+  color: #666666;
+}
+
+.container {
+  width: 700px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.img-circle {
+  width: 150px;
+  border-radius: 50%;
+  border: 3px solid #cccccc;
+}
+
+.img-medium {
+  width: 200px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list-inline > li {
+    display: inline-block;
+    padding: 20px;
+}
+
+.social-media::before {
+  font-size: 30px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
